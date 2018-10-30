@@ -1,0 +1,35 @@
+html {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: Overpass, sans-serif;
+}
+
+.white {
+  fill: #fff;
+}
+
+.btn-ghost {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid #fff;
+}
+
+.border {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .border {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+
+}
